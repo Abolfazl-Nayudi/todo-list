@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:4000/todos/";
+const baseUrl = "https://todolist-server-rx8p.onrender.com/todos/";
 
 const PostTodo = async (data) => {
   const res = await axios.post(baseUrl, { todo: data });
